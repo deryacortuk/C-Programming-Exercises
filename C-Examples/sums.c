@@ -2,7 +2,7 @@
 
 int main(){
 	
-	int myarray[5][3]={{2,4,6},{1,2,3},{3,6,9},{4,8,12},{5,10,15}};
+    int myarray[5][3]={{2,4,6},{1,2,3},{3,6,9},{4,8,12},{5,10,15}};
     int  (*my_pointer)[3]=myarray;
     int i,j,column,sum=0;
     
