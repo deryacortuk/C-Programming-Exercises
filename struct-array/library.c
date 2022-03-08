@@ -17,7 +17,7 @@ int main(){
 	
 	for(i=0;i<3;i++){
 		
-		printf("%d book details %s %s %d\n",i+1,&book[i].name,&book[i].author,&book[i].publishedYear);
+		printf("%d book details %s %s %d\n",i+1,&book[i].name,&book[i].author,book[i].publishedYear);
 	}
 	return 0;
 }
